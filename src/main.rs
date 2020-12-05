@@ -1,3 +1,7 @@
+// mod scalars;
+mod bools;
+
 fn main() {
-    println!("Hello, world!");
+    // scalars::run();
+    bools::run();
 }
