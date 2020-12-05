@@ -1,23 +1,22 @@
 // Scalar types represent a single value.
 //Include integers, floating-point numbers, booleans and characters.
+// Integer (Mutable and Immutable)
 
+/**
+ *
+ * Integer types include:
+ * 1. 8 bit => i8, u8
+ * 2. 16 bit => i16, u16
+ * 3. 32 bit => i32, u32
+ * 4. 64 bit => i64, u64
+ * 5. 128 bit => i128, u128
+ * isize, usize => Useful when indexing collections
+ *
+ * DEFAULTS tp i32. It is the fastest
+ */
 pub fn run() {
     println!("Scalars mod called");
 
-    // Integer (Mutable and Immutable)
-
-    /**
-     *
-     * Integer types include:
-     * 1. 8 bit => i8, u8
-     * 2. 16 bit => i16, u16
-     * 3. 32 bit => i32, u32
-     * 4. 64 bit => i64, u64
-     * 5. 128 bit => i128, u128
-     * isize, usize => Useful when indexing collections
-     *
-     * DEFAULTS tp i32. It is the fastest
-     */
     let mut x = 10;
     println!("The value of x is {}", x);
     x = 6;
@@ -69,8 +68,6 @@ pub fn run() {
     // Remainder/Modulo
     let modulus = 10 % 5;
     println!("The remainder of 10 divided by 5 is {}", modulus);
-    
-    
     // MISCELLANEOUS
 
     let first: i64 = 3;
