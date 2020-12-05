@@ -1,7 +1,14 @@
 // mod scalars;
-mod bools;
+mod complexes;
+// use crate::scalars::bools;
+// use crate::scalars::chars;
+// use crate::scalars::strs;
+// use crate::scalars::scalar;
+
+use crate::complexes::tuple;
 
 fn main() {
-    // scalars::run();
-    bools::run();
+    // chars::run();
+    // bools::run();
+    tuple::run();
 }
