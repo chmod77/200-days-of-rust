@@ -26,7 +26,10 @@ pub fn run(){
     let even: [i32; 4] = [2,4,6,8];
 
     // Initialize an array with same values => 6 elements in array, with value 3 i.e [3,3,3,3,3,3,3]
+    println!("{:?}", even);
     let same = [3;6];
+    println!("{:?}", months);
+
 
     let first = same[0];
     let second = same[1];
