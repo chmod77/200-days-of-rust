@@ -1,9 +1,9 @@
-pub fn run(){
+pub fn run(name: String){
     // Strings
 
     // str => immutable, fixed length
     // String => mutable & growable. Stored on heap;
 
-    let name = "Hello";
+    println!("Hello there, {}", name);
     
 }
